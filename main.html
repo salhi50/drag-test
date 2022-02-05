@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - page</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/correct.css" />
+    <link rel="stylesheet" href="css/wspace.css">
+  </head>
+  <body class="body" style="counter-reset: order;">
+    <header class="fixed-header" id="head">
+      <div class="container">
+        <nav class="main-nav" id="nav">
+          <ul class="flex flex-between align-center" style="height: 60px;">
+            <li class="logo-small flex align-center user-none">
+              <img src="images/logo.png" alt="">
+              <h3 class="mgl-half-1rem w-color">Pain</h3>
+            </li>
+            <li class="left-side">
+              <div class="logo-fluid flex align-center user-none">
+                <img src="images/logo.png" alt="">
+                <h3 class="mgl-half-1rem w-color">Pain</h3>
+              </div>
+            </li>
+            <li class="right-side">
+              <div class="login-small"><a href="#close"><i id="lista" class="fa fa-bars w-color"></i></a></div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <aside class="d-none white-bg fd-col align-center justify-center" id="side">
+      <div class="close" id="close"><i class="fa fa-close"></i></div>
+      <div class="loader d-none" id="loader"><img src="images/loader.gif" alt="" style="width: 90px !important;"></div>
+      <div class="four-ctrl container d-none" id="four" style="padding: 50px 0 !important;">
+        <div class="icon"><i class="fa fa-check-circle" style="color: var(--main-color); font-size: 40px;"></i></div>
+        <h4 class="top mgt-1rem mgb-1rem">Done!</h4>
+      </div>
+      <div class="four-ctrl container d-none text-center" id="hy" style="line-height: 70px;">
+        <div class="icon"><i class="fa fa-check-circle" style="color: var(--main-color); font-size: 40px;"></i></div>
+      </div>
+      <div class="container">
+        <div class="rq" style="padding: 10px 1.2rem;" id="rq">
+          <div class="caption" dir="rtl">
+            <i class="fa fa-info-circle" style="color: #ff6b7c;"></i>
+            <span class="p-small">عمر المعلومات ديالك كاملين</span>
+            <p class="p-small mgt-half-1rem">هاد المعلومات لتكتب كولهوم أتلقاهم فالخانة نتاع <span class="" style="color: red; padding: 2px 4px; background: #eee;">info</span></p>
+            <p class="p-small mgt-half-1rem">كمل هادشي حتى لخر ومتخرج تتسالي كولشي</p>
+            <p class="p-small mgt-half-1rem">كتب كلشي صحيح، وهادشي مايوصلنيش</p>
+          </div>
+        </div>
+        <div class="first-ctrl" id="one">
+          <form>
+            <div class="first">
+              <input type="text" id="first-name" class="input" placeholder="First name">
+            </div>
+            <div class="second mgt-1rem">
+              <input type="text" id="last-name" class="input" placeholder="Last name">
+            </div>
+            <div class="third flex flex-between">
+              <input type="text" id="gender" placeholder="gender" class="mgt-1rem input" style="flex-basis: 48%;">
+              <input type="text" id="age" placeholder="age" class="mgt-1rem input" style="flex-basis: 48%;">
+            </div>
+            <div class="next mgt-1rem" style="padding-bottom: 10px;" id="next">
+              <a class="btn rounded bleu-bg w-color text-center" style="width: 100%; height: 40px;">Next</a>
+            </div>
+          </form>
+        </div>
+        <div class="second-ctrl" id="two">
+          <form>
+            <div class="first">
+              <input type="email" id="email" class="input" placeholder="Email">
+            </div>
+            <div class="second mgt-1rem">
+              <input type="text" id="phone" class="input" placeholder="Phone number">
+            </div>
+            <div class="third flex flex-between">
+              <input type="text" id="country" placeholder="country" class="mgt-1rem input" style="flex-basis: 48%;">
+              <input type="text" id="city" placeholder="city" class="mgt-1rem input" style="flex-basis: 48%;">
+            </div>
+            <div class="next mgt-1rem" style="padding-bottom: 10px;" id="nex">
+              <a class="btn text-center rounded bleu-bg w-color" style="width: 100%; height: 40px;">Next</a>
+            </div>
+          </form>
+        </div>
+        <div class="third-ctrl" id="three">
+          <form>
+            <div class="right-float cursor d-inline" style="margin-bottom: 5px;" id="showp">
+              <i class="fa fa-eye " style="font-size: 14px; margin-right: 3px;"></i>
+              <span class="p-small">show</span>
+            </div>
+            <div class="clear"></div>
+            <div class="right-float d-none cursor" style="margin-bottom: 5px;" id="hidep">
+              <i class="mgr-6pt fa fa-eye-slash" style="font-size: 14px;"></i>
+              <span class="p-small">hide</span>
+            </div>
+            <div class="clear"></div>
+            <div class="first">
+              <input type="password" id="password" class="input" placeholder="password">
+            </div>
+            <div class="second mgt-1rem">
+              <textarea id="desc" class="input" placeholder="Description" style="height: 80px;"></textarea>
+            </div>
+            <div class="third mgt-1rem rounded" dir="rtl" style="background: #ffffcc;padding: 10px;">
+              <span class="p-mid">هنا حاول دير شي معلومات عليك بالإنجليزية باش تختابر لغتك</span>
+            </div>
+            <div class="next mgt-1rem" id="ne">
+              <a class="btn text-center rounded bleu-bg w-color" style="width: 100%; height: 40px;">Next</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </aside>
+    <section dir="rtl" class="flex align-center" id="section">
+      <div class="container">
+        <div class="list-ctrl flex flex-wrap flex-between align-center">
+          <div class="item div-60 text-center res-div-100 res-mgt-1h5rem res-order-2">
+            <h3 class="capital w-color mgb-1rem">free apps for all platforms</h3>
+            <p class="p-mid w-color">get free unlimited apps and games for all devices</p>
+            <a href="#content" class="btn white-bg mgt-1h5rem rounded res-div-100 text-center" style="color: #105593;">start now</a>
+          </div>
+          <div class="item div-30 res-div-60 res-mgx-auto"><img src="images/sect.png" alt=""></div>
+        </div>
+      </div>
+    </section>
+    <main class="main-pdtb bg-section" id="main">
+      <div class="container">
+        <div class="title res-cent-text" id="content"><h2 style="margin-bottom: 2.5rem;">features</h2></div>
+        <div class="list-ctrl grid">
+          <div class="main-card rounded pd-1rem white-bg text-center">
+            <img src="images/free.svg" alt="">
+            <h5 class="mgb-half-1rem mgt-half-1rem capital">free download</h5>
+            <p class="p-mid">free download and unlimited apps</p>
+          </div>
+          <div class="main-card rounded pd-1rem white-bg text-center">
+            <img src="images/easy.svg" alt="">
+            <h5 class="mgb-half-1rem mgt-half-1rem capital">easy download</h5>
+            <p class="p-mid">Fully compatible with all browsers.</p>
+          </div>
+          <div class="main-card rounded pd-1rem white-bg text-center">
+            <img src="images/tanawo3.svg" alt="">
+            <h5 class="mgb-half-1rem mgt-half-1rem capital">Various applications</h5>
+            <p class="p-mid">unlimited games and apps</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="info-show" id="infos" style="padding-top: 20px; padding-bottom: 80px;">
+      <div class="loading text-center full-width d-none" id="loading">
+        <img src="images/loading.gif" alt="" style="width: 70px !important">
+      </div>
+      <div class="start container d-none" id="start">
+        <h1 class="bien" style="margin-bottom: .8rem !important;">hello !</h1>
+        <div class="titi mgb-half-1rem">
+          <h3 class="capital">choose an avatar</h3>
+        </div>
+        <div class="list-ctrl grid">
+          <div class="item">
+            <img src="images/gogu.png" alt="" class="borderA">
+          </div>
+          <div class="item">
+            <img src="images/loffy.jpg" alt="" class="borderB">
+          </div>
+          <div class="item">
+            <img src="images/dark.jpg" alt="" class="borderC">
+          </div>
+          <div class="item">
+            <img src="images/girl.jpg" alt="" class="borderD">
+          </div>
+          <div class="item">
+            <img src="images/yahiko.jpg" alt="" class="borderE">
+          </div>
+          <div class="item">
+            <img src="images/madara.jpg" alt="" class="borderF">
+          </div>
+          <div class="item">
+            <img src="images/sakura.png" alt="" class="borderG">
+          </div>
+          <div class="item">
+            <img src="images/itachi.jpg" alt="" class="borderH">
+          </div>
+          <div class="item">
+            <img src="images/ino.jpeg" alt="" class="borderI">
+          </div>
+          <div class="item">
+            <img src="images/saitama.jpg" alt="" class="borderJ">
+          </div>
+          <div class="item">
+            <img src="images/mido.jpg" alt="" class="borderK">
+          </div>
+          <div class="item">
+            <img src="images/toky.jpg" alt="" class="borderL">
+          </div>
+          <div class="item">
+            <img src="images/tok.jpg" alt="" class="borderM">
+          </div>
+          <div class="item">
+            <img src="images/kagg.jpg" alt="" class="borderN">
+          </div>
+          <div class="item">
+            <img src="images/gl.jpeg" alt="" class="borderO">
+          </div>
+          <div class="item">
+            <img src="images/zeno.jpg" alt="" class="borderP">
+          </div>
+        </div>
+        <div class="butons d-none mgt-1rem" id="btns">
+          <a id="khtar" class="btn rounded text-center full-width" style="height: 40px;background: #105593;">
+          <i class="w-color fa fa-check"></i>
+          <span class="w-color" style="padding-left: .5rem;">Choose</span>
+          </a>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div class="end d-none container" id="end">
+        <div class="avatar text-center"><img src="images/unknown.png" alt="" id="avatar" style="width: 120px;height: 120px;border-radius: 50%;"></div>
+        <div class="full mgt-1rem bg-section mgx-auto rounded" style="padding: 5px 15px; width: fit-content; border: 1px solid var(--border-input);">
+        <h6 id="full">unknown</h6>
+        </div>
+        <div class="pop">
+          <ul class="rounded mgt-1h5rem" style="border: 1px solid var(--border-input);">
+            <li class="principe" style="padding: 10px 5px; border-bottom: 1px solid var(--border-input);">
+              <h5>Description</h4>
+            </li>
+            <li class="tani talt flex">
+              <span id="d" class="p-xsmall" style="color: #7a7a7a;">Unknown</span>
+            </li>
+          </ul>
+          <ul class="rounded mgt-1h5rem" style="border: 1px solid var(--border-input);">
+            <li class="principe" style="padding: 10px 5px; border-bottom: 1px solid var(--border-input);">
+              <h5>Informations Personneles</h4>
+            </li>
+            <li class="tani flex flex-between">
+              <span class="capital p-small">first name</span>
+              <span id="fn" class="p-xsmall" style="color: #7a7a7a;">Unknown</span>
+            </li>
+            <li class="tani flex flex-between">
+              <span class="capital p-small">last name</span>
+              <span id="ln" class="p-xsmall" style="color: #7a7a7a;">Unknown</span>
+            </li>
+            <li class="tani flex flex-between">
+              <span class="capital p-small">gender</span>
+              <span id="g" class="p-xsmall" style="color: #7a7a7a;">Unknown</span>
+            </li>
+            <li class="tani flex flex-between">
+              <span class="capital p-small">age</span>
+              <span id="a" class="p-xsmall" style="color: #7a7a7a;">Unknown</span>
+            </li>
+          </ul>
+          <ul class="rounded mgt-1h5rem mgb-1h5rem" style="border: 1px solid var(--border-input);">
+            <li class="principe" style="padding: 10px 5px; border-bottom: 1px solid var(--border-input);">
+              <h5>Plus D'informations</h4>
+            </li>
+            <li class="tani flex flex-between">
+              <span class="capital p-small">email</span>
+              <span id="e" class="p-xsmall" style="color: #7a7a7a;">Unknown</span>
+            </li>
+            <li class="tani flex flex-between">
+              <span class="capital p-small">phone number</span>
+              <span id="pn" class="p-xsmall" style="color: #7a7a7a;">Unknown</span>
+            </li>
+            <li class="tani flex flex-between">
+              <span class="capital p-small">country</span>
+              <span id="c" class="p-xsmall" style="color: #7a7a7a;">Unknown</span>
+            </li>
+            <li class="tani flex flex-between">
+              <span class="capital p-small">city</span>
+              <span id="ci" class="p-xsmall" style="color: #7a7a7a;">Unknown</span>
+            </li>
+          </ul>
+        </div>
+        <div class="rq mgt-1rem" style="padding: 10px 1.2rem;">
+          <div class="caption" dir="rtl">
+            <i class="fa fa-info-circle" style="color: #ff6b7c;"></i>
+            <span class="p-small">ان جيتي لهنا ومالقيتيش المعلومات</span>
+            <p class="p-small mgt-half-1rem">برك على <span class="" style="color: red; padding: 2px 4px; background: #eee;">home</span></p>
+            <p class="p-small mgt-half-1rem">ودخل لهاد البلاصة <span class="" style="color: red; padding: 2px 4px; background: #eee; font-size: 16px; border-radius: 50%;"><i class="fa fa-bars"></i></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="how" style="padding-bottom: 50px; margin-top: -40px;" id="how">
+      <div class="title container res-cent-text" id="content"><h2 style="margin-bottom: 2.5rem;">how to download?</h2></div>
+      <div class="container" style="padding: 0 18px !important;">
+        <ul class="pdt-15 pdb-15">
+          <li>
+            <div class="up-list mgb-2rem">
+              <p class="p-small">Your file is available at the <b>bottom bar</b> of the browser</p>
+            </div>
+            <div class="down-list mgt-1rem mgb-2rem"><img src="images/awal.jpg" alt=""></div>
+          </li>
+          <li>
+            <div class="up-list mgb-2rem">
+              <p class="p-small">Open your downloads page with this shortcut: <b>CTRL+J</b></p>
+            </div>
+            <div class="down-list mgt-1rem mgb-2rem"><img src="images/tani.jpg" alt=""></div>
+          </li>
+          <li>
+            <div class="up-list mgb-2rem">
+              <p class="p-small">Check the list. This list includes all files you have downloaded. Click the first one to start the installation</p>
+            </div>
+            <div class="down-list mgt-1rem mgb-2rem"><img src="images/talt.jpg" alt=""></div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="faq bg-section" style="padding: 35px 0;" id="faq">
+      <div class="container">
+        <div class="title container text-center" id="content"><h2 style="margin-bottom: 2.5rem;">FAQ</h2></div>
+        <ul style="border: 1px solid var(--border-input);" class="mgx-auto rounded white-bg shadow">
+          <li id="awal" class="cursor flex flex-between align-center" style="padding: 13px 7px;border-bottom: 1px solid var(--border-input);">
+            <span class="capital p-small" style="color: #105593;">what's an app?</span>
+            <i class="fa fa-chevron-down" style="color: #105593;" id="todownA"></i>
+            <i class="fa fa-chevron-up d-none" id="toupA" style="color: #105593; padding-left: 5px;"></i>
+          </li>
+          <p class="p-small white-bg" id="alawal" style="display: none; padding: .5rem 7px;">An app, which is short for "application," is a type of software that can be installed and run on a computer, tablet, smartphone or other electronic devices.</p>
+          <li id="tani" class="cursor flex flex-between align-center" style="padding: 13px 7px;border-bottom: 1px solid var(--border-input);">
+            <span class="capital p-mid" style="color: #105593;">what's the first platform in the word?</span>
+            <i class="fa fa-chevron-down" style="color: #105593;" id="todownB"></i>
+            <i class="fa fa-chevron-up d-none" id="toupB" style="color: #105593; padding-left: 5px;"></i>
+          </li>
+          <p class="p-small white-bg" id="altani" style="display: none; padding: .5rem 7px;">The first true platform  was the 1981 <b>Nintendo arcade game Donkey Kong</b> .</p>
+          <li id="talt" class="cursor flex flex-between align-center" style="padding: 13px 7px;border-bottom: 1px solid var(--border-input);">
+            <span class="capital p-mid" style="color: #105593;">how much apps in the world?</span>
+            <i class="fa fa-chevron-down" style="color: #105593;" id="todownC"></i>
+            <i class="fa fa-chevron-up d-none" id="toupC" style="color: #105593; padding-left: 5px;"></i>
+          </li>
+          <p class="p-small white-bg" id="altalt" style="display: none; padding: .5rem 7px;">Today, <b>1.85 million</b> different apps are available for users to download. Android users have even more from which to choose, with 2.56 million available through the Google Play Store.</p>
+          <li id="raba" class="cursor flex flex-between align-center" style="padding: 13px 7px;">
+            <span class="capital p-mid" style="color: #105593;">how to build an app?</span>
+            <i class="fa fa-chevron-down" style="color: #105593;" id="todownD"></i>
+            <i class="fa fa-chevron-up d-none" id="toupD" style="color: #105593; padding-left: 5px;"></i>
+          </li>
+          <p class="p-small white-bg" id="alraba" style="display: none; padding: .5rem 7px;">
+            Creating your mobile app for Android and iPhone for free is easier than ever. <b>iBuildApp app maker software</b> allows building apps in a matter of minutes, no coding required! Just pick a template.</p>
+        </ul>
+      </div>
+    </div>
+    <footer class="w-color" id="foot" style="padding-top: 20px !important;padding-bottom: 70px;">
+      <div class="container">
+        <div class="social flex justify-center">
+          <a href="https://github.com/salhi50?tab=repositories" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.youtube.com/channel/UCsyHTNO6HpckiNRE6ZS-X-A" target="_blank"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.instagram.com/salhi_098/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://web.facebook.com/ali.ssalhi.50/" target="_blank"><i class="fab fa-facebook"></i></a>
+        </div>
+        <div class="copy text-center mgt-1rem p-xsmall pdb-15" style="color: #a8a8a8;">copyright pain all rights reserved 2022.</div>
+      </div>
+    </footer>
+    <div class="bottom white-bg full-width" id="bottom">
+      <ul class="flex align-center">
+        <li class="home kati" id="home">
+          <a href="main.html"><i class="fa fa-home"></i></a>
+          <p class="p-small capital">home</p>
+        </li>
+        <li class="apps kati">
+          <a href="apps.html"><i class="fa fa-shapes"></i></a>
+          <p class="p-small capital">apps</p>
+        </li>
+        <li class="rate">
+          <a href="rate.html"><i class="fa fa-star"></i></a>
+          <p class="p-small capital">rate</p>
+        </li>
+        <li class="info" id="infop">
+          <i class="fa fa-user"></i>
+          <p class="p-small capital">info</p>
+        </li>
+      </ul>
+    </div>
+  </body>
+  <script src="begin.js"></script>
+</html>
